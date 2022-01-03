@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/videosFragment">
+
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.example.learnuxclean.features_videos.presentation.VideosFragment"
+        android:label="VideosFragment" >
+        <action
+            android:id="@+id/action_videosFragment_to_playBackFragment"
+            app:destination="@id/playbackFragment">
+            <argument
+                android:name="videoID"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/playbackFragment"
+        android:name="com.example.learnuxclean.features_videos.presentation.PlaybackFragment"
+        android:label="PlaybackFragment">
+        <argument
+            android:name="videoID"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Learnux-CLEAN</string>
+
+    <string name="title_activity_main">Learnux</string>
+
+    //Empty List TextView
+    <string name="text_empty_list_message">Check network connection and try again.</string>
+
+    //Dialogs
+    <string name="dialog_title_no_connection">Check Network Connectivity</string>
+    <string name="dialog_message_no_connection">"Please check network connection to load videos and try again.</string>
+    <string name="firebase_on_cancelled">"Failed to get videos. Please try again.</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "74360163880",
+    "project_id": "learnuxclean",
+    "storage_bucket": "learnuxclean.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74360163880:android:ce3c2dfab5a3e9def2ef1d",
+        "android_client_info": {
+          "package_name": "com.example.learnuxclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74360163880-1s6v89mmu6isji4vh4m4fv9bglq7f3fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-hQiDrleUUWe62YDw7v5lQjo1eIvkJtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74360163880-1s6v89mmu6isji4vh4m4fv9bglq7f3fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
